@@ -11,7 +11,7 @@ export default function Experience() {
         <div id='experience'>
             <h1 className='text-indigo-300 text-5xl text-center mt-20'>Experience</h1>
             <div className="flex flex-row justify-center space-x-4 mt-10">
-                <Card name="Full-stack Dev @ Adaptive Pulse" date="May 2024 - present" description="Developed components for full-stack app with React and Supabase to manage projects scanned for SR&ED analysis" img={adaptivepulse} link={"http://adaptivepulse.com"} /> {/*291*/}
+                <Card name="Full-stack Dev @ Adaptive Pulse" date="May 2024 - present" description="Developed components with React and Supabase to manage projects scanned for SR&ED analysis" img={adaptivepulse} link={"http://adaptivepulse.com"} /> {/*291*/}
                 <Card name="Enable Team @ UW Biotron" date="Sep 2023 - Dec 2023" description="Built prosthetic arm with 3D printed parts" img={biotron} link={"https://www.facebook.com/UWBioTron/"}/>
             </div>
             <div className="flex flex-row justify-center space-x-4 mt-6">
