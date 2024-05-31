@@ -11,7 +11,7 @@ function Card(props) {
                 />
                 <figcaption className="absolute inset-0 flex flex-col justify-end p-4 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <p className="text-lg text-white">{props.name}</p>
-                    <p className="text-xs italic text-white">{props.date}</p>
+                    <p className="text-sm italic text-white">{props.date}</p>
                     <p className="text-sm text-white">{props.description}</p>
                 </figcaption>
             </a>
