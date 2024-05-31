@@ -15,14 +15,14 @@ export default function Contact() {
     return (
         <div id="contact" className="text-indigo-300 text-5xl text-center mt-20">
             Contact
-            <div className="flex flex-row justify-center space-x-2 p-8">
+            <div className="flex flex-row justify-center space-x-2 p-8 mb-10">
                 <button onClick={redirectToMail}>
                     <AiOutlineMail className="text-teal-300 hover:text-sky-900" />
                 </button>
                 <button onClick={redirectToGitHub}>
                     <AiOutlineGithub className="text-teal-300 hover:text-sky-900" />
                 </button>
-                <button onClick={redirectToLinkedin}>
+                <button onClick={redirectToLinkedin} >
                     <AiOutlineLinkedin className="text-teal-300 hover:text-sky-900" />
                 </button>
             </div>
