@@ -11,7 +11,7 @@ import Card from "./Card";
 export default function Project() {
     return (
         <div id='projects'>
-            <h1 className='text-indigo-300 text-5xl text-center mt-20'>Projects</h1>
+            <h1 className='text-indigo-300 lg:text-5xl text-4xl text-center mt-20'>Projects</h1>
             <div className="flex flex-row justify-center space-x-4 justify-center mt-10">
                 <Card name="UW Rez" description="Dorm-rating system for first-year Waterloo students created with React, Typescript, Firebase, and PostgreSQL" img={uwrez} link={"http://uwrez.com"}/> {/*291*/}
                 <Card name="Student Database" description="API with Spring Boot that performs CRUD functions into SQL database" img={students} link={"https://github.com/james-yu2005/SpringBoot-student-backend"}/>
