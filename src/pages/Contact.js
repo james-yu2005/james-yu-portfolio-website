@@ -13,9 +13,9 @@ export default function Contact() {
         window.location.href = "mailto:j85yu@uwaterloo.ca"
     }
     return (
-        <div id="contact" className="text-indigo-300 text-5xl text-center mt-20">
+        <div id="contact" className="lg:text-5xl text-4xl text-indigo-300 text-center mt-20">
             Contact
-            <div className="flex flex-row justify-center space-x-2 p-8 mb-10">
+            <div className="flex flex-row justify-center space-x-2 p-8 mb-10 text-4xl lg:text-5xl">
                 <button onClick={redirectToMail}>
                     <AiOutlineMail className="text-teal-300 hover:text-sky-900" />
                 </button>
