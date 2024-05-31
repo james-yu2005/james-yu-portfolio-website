@@ -16,7 +16,7 @@ export default function Project() {
                 <Card name="Student Database" description="API with Spring Boot that performs CRUD functions into SQL database" img={students} link={"https://github.com/james-yu2005/SpringBoot-student-backend"}/>
             </div>
             <div className="flex flex-row justify-center space-x-4 justify-center mt-6">
-                <Card name="Ultrasound Beamforming" description="C++ function that parsed echo data and transformed points into ultrasound graph data" img={ultrasound} link={"https://github.com/james-yu2005/Ultrasound-Amode-Beamforming"}/>
+                <Card name="Ultrasound Beamforming" description="C++ function that parses echo data and transforms points into ultrasound graph data" img={ultrasound} link={"https://github.com/james-yu2005/Ultrasound-Amode-Beamforming"}/>
                 <Card name="To-Do List" description="To-Do List made with MERN (MongoDB, Express, Node, React) stack with added sorting functionalities for tasks" img={todo} link={"https://github.com/james-yu2005/MERN-todo"}/>
             </div>
         </div>
